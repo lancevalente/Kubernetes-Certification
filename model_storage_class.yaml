@@ -1,0 +1,9 @@
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  name: standard
+provisioner: kubernetes.io/aws-ebs  # exemplo para AWS EBS, substitua conforme seu ambiente
+parameters:
+  type: gp2
+reclaimPolicy: Delete
+volumeBindingMode: Immediate
