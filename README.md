@@ -15,3 +15,5 @@ https://kodekloud.com/pages/free-labs/kubernetes/
 . Documentação oficial:
 
 https://kubernetes.io/docs/home/
+
+https://helm.sh/pt/docs/
